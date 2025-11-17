@@ -1,5 +1,5 @@
 import streamlit as st
-#import cv2
+import cv2
 from ultralytics import YOLO
 import torch
 import tempfile
@@ -87,4 +87,5 @@ if start_button:
 
     cap.release()
     st.success("✅ Detection finished!")
+
 
